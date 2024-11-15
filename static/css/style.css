@@ -1,0 +1,131 @@
+.task-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.priority-badge {
+    font-size: 0.8rem;
+    padding: 0.4em 0.8em;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-stats {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.search-box {
+    max-width: 300px;
+}
+
+.due-soon {
+    border-left: 4px solid #ffc107;
+}
+
+.overdue {
+    border-left: 4px solid #dc3545;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #f0f0f0 !important;
+}
+
+.dark-mode .navbar {
+    background-color: #2d2d2d !important;
+}
+
+.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #404040;
+}
+
+.dark-mode .card-header {
+    background-color: #363636;
+    border-bottom-color: #404040;
+}
+
+.dark-mode .task-stats {
+    background: #2d2d2d;
+}
+
+.dark-mode .stat-card {
+    background: #363636;
+    color: #f0f0f0;
+}
+
+.dark-mode .text-muted {
+    color: #b0b0b0 !important;
+}
+
+.dark-mode .btn-outline-secondary {
+    color: #f0f0f0;
+    border-color: #606060;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+.dark-mode .form-control {
+    background-color: #363636;
+    border-color: #404040;
+    color: #f0f0f0;
+}
+
+.dark-mode .form-control:focus {
+    background-color: #404040;
+    color: #f0f0f0;
+}
+
+.dark-mode .dropdown-menu {
+    background-color: #2d2d2d;
+    border-color: #404040;
+}
+
+.dark-mode .dropdown-item {
+    color: #f0f0f0;
+}
+
+.dark-mode .dropdown-item:hover {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+.theme-toggle i {
+    font-size: 1.2rem;
+} 
